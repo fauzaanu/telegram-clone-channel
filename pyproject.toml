@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "telegrambroadcast"
+version = "0.1.0"
+description = ""
+authors = ["fauzaanu <fauzaangasim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+python-dotenv = "^1.0.0"
+tgcrypto = "^1.2.5"
+pyrofork = "^2.3.16.post5"
+typer = {extras = ["all"], version = "^0.9.0"}
+pyinstaller = "^6.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
